@@ -30,7 +30,13 @@ clear_button.grid(row=0, column=2)
 enc_label = Label(root, text="Encrypt/Decrypt Text...", font=("Helvetica", 14))
 enc_label.pack()
 
-password_label = Label(root, text="Enter Your Password...", font=("Helvetica", 14))
+my_text = Text(root, width=57, height=10)
+my_text.pack(pady=10)
 
+password_label = Label(root, text="Enter Your Password...", font=("Helvetica", 14))
+password_label.pack()
+
+my_entry = Entry(root, font=("Helvetica", 18), width=36, show="*")
+my_entry.pack(pady=10)
 
 root.mainloop()
