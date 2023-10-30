@@ -7,7 +7,6 @@ root.title('Codemy.com - Encrypt/Decrypt BAse64')
 root.iconbitmap('c:/gui/codemy.ico')
 root.geometry("500x400")
 
-
 def clear():
     pass
 def encrypt():
