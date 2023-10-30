@@ -7,6 +7,7 @@ root.title('Codemy.com - Encrypt/Decrypt BAse64')
 root.iconbitmap('c:/gui/codemy.ico')
 root.geometry("500x400")
 
+
 def clear():
     pass
 def encrypt():
@@ -25,5 +26,11 @@ dec_button.grid(row=0, column=1)
 
 clear_button = Button(my_frame, text="Clear", font=("Helvetica", 18), command=clear)
 clear_button.grid(row=0, column=2)
+
+enc_label = Label(root, text="Encrypt/Decrypt Text...", font=("Helvetica", 14))
+enc_label.pack()
+
+password_label = Label(root, text="Enter Your Password...", font=("Helvetica", 14))
+
 
 root.mainloop()
